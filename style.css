@@ -1,0 +1,473 @@
+  
+/***********************************************************************
+Global scope
+************************************************************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+p {
+    color: white;
+}
+
+body 
+{
+    background: #F1F1F1;
+    /* background: #b9baa3; */
+}
+
+/***********************************************************************
+Navbar
+************************************************************************/
+
+header 
+{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #7E469F;
+    width: 100%;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 25px 0 black; */
+}
+.logo img {
+   margin-right: 10px; 
+}
+header .logo 
+{
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+/***********
+logo
+***********/
+
+.logo 
+{
+    border-radius: 50%;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+div.logo {
+   display: inline-flex;
+   align-items: center;
+}
+header nav {
+    float: right;
+    z-index: 10;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    list-style:none;
+}
+
+header ul li a 
+{
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+header ul li a:hover, header ul li a.active {
+    background:#AE4F9B;
+    color:white;
+}
+
+.menu-toggle {
+    float: right;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+} 
+@media  (max-width: 991px) {
+    header
+    {
+        padding: 0 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav
+    {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 70px;
+        left: -100%;
+        transition: 0.75s;
+        z-index: 100;
+    }
+    
+    header nav.active 
+    {
+        left:0;
+    }
+    header nav ul 
+    {
+       display: block;
+       text-align: center;
+    }
+    
+    header nav ul li a 
+    {
+        border-bottom: 1px solid rgba(0,0,0,0.2)
+    }
+
+    #strip {
+        height: 325px;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 26px;
+    }
+} 
+
+.head-layout
+{
+    margin-top: 10%;
+}
+.container.head-layout {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black
+}
+
+.indent {
+    background-color:#EEDF02;
+    padding-top:90px;
+    box-sizing: border-box;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 600px !important;
+}
+
+/* .carousel-caption {
+    background: rgba(255,255,255,0.5);
+    margin-bottom: 400px;
+} */
+.carousel-caption {
+    
+}
+
+
+.testBackground {
+    background-image: url(work.jpg);
+    width:100%;
+    height: auto; 
+}
+
+.zenBackround {
+    background-image: url(./pictures/rockStackredone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slideText {
+    display: flex;
+    justify-content: center;
+}
+
+.itemcol1 {
+    flex: 1;
+    text-align: center;
+  }
+.itemcol2 {
+    flex: 2;
+    text-align: center; 
+}
+
+
+.blocking {
+    display: block;
+    margin-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.app {
+    height: 100vh;
+  }
+
+.time-display {
+    margin-left: 20px;
+}
+.time-display {
+    color:rgb(238,223,2)
+}
+.time-select {
+    margin-left: 20px;
+    /* background: red;
+    text-align: center; */
+}
+
+.sound-picker {
+    /* background: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-container {
+    /* background: blue; */
+    background: #7E469F;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+
+video {
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    z-index: -99;
+}
+
+.FixedHeightContainer
+{
+  float:right;
+  height: 250px;
+  width:250px; 
+  padding:3px; 
+  background:#f00;
+}
+.ContentModal
+{
+  height:224px;
+  overflow:auto;
+  background:#fff;
+}
+
+.quoteSection {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.quoteSection p {
+    line-height: 2.0;
+    color: black;
+}
+
+#quoteBox {
+    display: flex;
+    align-items: center;
+}
+
+
+.soundItem {
+   
+    padding: 5px;
+    margin: 5px;
+}
+
+#successSubmission {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.formStyle {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    background-color: var(--white);
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-top: 10px solid var(--accent-color);
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    margin-top: 120px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #7E469F;
+    color: white;
+    justify-content: center;
+}
+
+
+.modal-content {
+    color: black
+}
+
+.modal-content p {
+    color: black;
+    text-indent: -15px;
+}
+
+
+
+
+/* https://www.geeksforgeeks.org/how-to-get-circular-buttons-in-bootstrap-4/ */
+
+.btn-circle.btn-md { 
+    background-color: rgb(126,70,159);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: black;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.fas.fa-cloud-showers-heavy {
+    color: white;
+}
+
+.fas.fa-water.fa-2x {
+    color: white
+}
+
+.fas.fa-vihara.fa-2x {
+    color: white;
+}
+
+
+
+
+  
+  /* .time-select,
+  .sound-picker {
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+  } */
+
+  
+
+/* 
+.carousel,.item,.active{
+    height:100%;
+  }
+ .carousel-inner{
+     height:100%;
+ } */
+
+ /* Photo by Damian Zaleski on Unsplash */
+
+
+
+
+/*===================*/
+/* bobbing hover effect -> this css is from https://codepen.io/techshiva/pen/MRbKrQ
+/*===================*/
+
+
+@-webkit-keyframes bob-on-hover {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes bob-on-hover {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes bob-on-hover-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes bob-on-hover-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.bob-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.bob-on-hover:hover, .bob-on-hover:focus, .bob-on-hover:active {
+  -webkit-animation-name: bob-on-hover-float, bob-on-hover;
+  animation-name: bob-on-hover-float, bob-on-hover;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+.aboutHeader {
+    margin-top: 20px;
+    text-align: center;
+}
+
+

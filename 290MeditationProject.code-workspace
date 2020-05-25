@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "sounds",
+			"path": "../../../../practicePage/meditation-app/sounds"
+		},
+		{
+			"name": "svg",
+			"path": "../../../../practicePage/meditation-app/svg"
+		},
+		{
+			"name": "video",
+			"path": "../../../../practicePage/meditation-app/video"
+		},
+		{
+			"name": "290MeditationProject",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "290MeditationProject"
+	}
+}

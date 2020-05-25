@@ -188,7 +188,7 @@ header ul li a:hover, header ul li a.active {
 }
 
 .zenBackround {
-    background-image: url(./pictures/rockStackredone.jpg);
+    background-image: url(../pictures/rockStackredone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

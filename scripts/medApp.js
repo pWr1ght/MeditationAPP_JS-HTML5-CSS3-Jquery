@@ -37,11 +37,11 @@ const meditate = () => {
     const checkPlaying = song => {
         if (song.paused) {
           song.play();
-          play.src = "./svg/pause-circle.svg";
+          play.src = "../svg/pause-circle.svg";
           video.play();
         } else {
           song.pause();
-          play.src = "./svg/play-circle.svg";
+          play.src = "../svg/play-circle.svg";
           video.pause();
         }
       };
@@ -58,7 +58,7 @@ const meditate = () => {
         if (currentTime >= setTime) {
             song.pause();
             song.currentTime = 0;
-            play.src = "./svg/play-circle.svg";
+            play.src = "../svg/play-circle.svg";
             video.pause();
         }
     }

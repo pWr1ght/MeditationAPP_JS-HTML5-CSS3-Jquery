@@ -5,7 +5,7 @@ function submitButton()
 	document.getElementById("submitEvent").addEventListener("click", function(event)
 	{
 		var req = new XMLHttpRequest();
-		var URL = "https://httpbin.org/post";
+		var URL = "http://httpbin.org/post";
         var payload = {email: null, medidate_minutes: null, experience: null, description: null};
         var success = document.getElementById("successSubmission")
 

@@ -24,10 +24,10 @@ function submitButton()
 			if (req.status >= 200 && req.status < 400)
 			{
                 var response = JSON.parse(JSON.parse(req.responseText).data);
-				document.getElementById("postEmail").textContent = "Email: " + response.email;
-                document.getElementById("postExperience").textContent = "Experience: " + response.experience;
-                document.getElementById("postMeditation").textContent = "Meditation: " + response.medidate_minutes;
-                document.getElementById("postDescription").textContent = "Description " + response.description;
+				// document.getElementById("postEmail").textContent = "Email: " + response.email;
+                // document.getElementById("postExperience").textContent = "Experience: " + response.experience;
+                // document.getElementById("postMeditation").textContent = "Meditation: " + response.medidate_minutes;
+                // document.getElementById("postDescription").textContent = "Description " + response.description;
 				success.innerHTML="Submission Succesfully Sent";
 				success.classList.add("alert-success");
 				success.classList.add("alert");

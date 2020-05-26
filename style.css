@@ -470,4 +470,8 @@ video {
     text-align: center;
 }
 
+.scrollBox {
+    overflow-y: scroll;
+}
+
 

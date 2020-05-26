@@ -21,7 +21,7 @@ body
 }
 
 /***********************************************************************
-Navbar
+Navbar (took navbar from one of my previous websites)
 ************************************************************************/
 
 header 
@@ -172,13 +172,6 @@ header ul li a:hover, header ul li a.active {
     max-height: 600px !important;
 }
 
-/* .carousel-caption {
-    background: rgba(255,255,255,0.5);
-    margin-bottom: 400px;
-} */
-.carousel-caption {
-    
-}
 
 
 .testBackground {
@@ -367,35 +360,6 @@ video {
     color: white;
 }
 
-
-
-
-  
-  /* .time-select,
-  .sound-picker {
-    height: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    flex: 1;
-  } */
-
-  
-
-/* 
-.carousel,.item,.active{
-    height:100%;
-  }
- .carousel-inner{
-     height:100%;
- } */
-
- /* Photo by Damian Zaleski on Unsplash */
-
-
-
-
 /*===================*/
 /* bobbing hover effect -> this css is from https://codepen.io/techshiva/pen/MRbKrQ
 /*===================*/
@@ -464,6 +428,11 @@ video {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+
+/*===================*/
+/* About page classes
+/*===================*/
 
 .aboutHeader {
     margin-top: 20px;

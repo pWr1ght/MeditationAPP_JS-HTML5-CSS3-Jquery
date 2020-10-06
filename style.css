@@ -14,8 +14,7 @@ p {
     color: white;
 }
 
-body 
-{
+body {
     background: #F1F1F1;
     /* background: #b9baa3; */
 }
@@ -24,8 +23,7 @@ body
 Navbar (took navbar from one of my previous websites)
 ************************************************************************/
 
-header 
-{
+header {
     position: absolute; 
     top: 0;
     left: 0;
@@ -38,6 +36,7 @@ header
 .logo img {
    margin-right: 10px; 
 }
+
 header .logo 
 {
     color: white;
@@ -52,8 +51,7 @@ header .logo
 logo
 ***********/
 
-.logo 
-{
+.logo {
     border-radius: 50%;
     color: white;
     height: 70px;
@@ -83,8 +81,7 @@ header ul li {
     list-style:none;
 }
 
-header ul li a 
-{
+header ul li a {
     height: 70px;
     line-height: 70px;
     padding: 0 20px;
@@ -107,15 +104,13 @@ header ul li a:hover, header ul li a.active {
     display: none;
 } 
 @media  (max-width: 991px) {
-    header
-    {
+    header {
         padding: 0 20px;
     }
     .menu-toggle {
         display: block;
     }
-    header nav
-    {
+    header nav {
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
@@ -126,18 +121,15 @@ header ul li a:hover, header ul li a.active {
         z-index: 100;
     }
     
-    header nav.active 
-    {
+    header nav.active {
         left:0;
     }
-    header nav ul 
-    {
+    header nav ul {
        display: block;
        text-align: center;
     }
     
-    header nav ul li a 
-    {
+    header nav ul li a {
         border-bottom: 1px solid rgba(0,0,0,0.2)
     }
 
@@ -145,15 +137,16 @@ header ul li a:hover, header ul li a.active {
         height: 325px;
         overflow: hidden;
     }
+    
     h1 {
         font-size: 26px;
     }
 } 
 
-.head-layout
-{
+.head-layout {
     margin-top: 10%;
 }
+
 .container.head-layout {
     text-align: center;
     margin-bottom: 40px;
@@ -167,12 +160,10 @@ header ul li a:hover, header ul li a.active {
     box-shadow: 0 0 25px 0 black;
 }
 
-.carousel-inner{
+.carousel-inner {
     width:100%;
     max-height: 600px !important;
 }
-
-
 
 .testBackground {
     background-image: url(work.jpg);
@@ -195,15 +186,16 @@ header ul li a:hover, header ul li a.active {
 .itemcol1 {
     flex: 1;
     text-align: center;
-  }
+}
+
 .itemcol2 {
     flex: 2;
     text-align: center; 
 }
 
-
 .blocking {
     display: block;
+    color: white;
     margin-top: 100px;
     padding-right: 100px;
     padding-left: 100px;
@@ -211,14 +203,16 @@ header ul li a:hover, header ul li a.active {
 
 .app {
     height: 100vh;
-  }
+}
 
 .time-display {
     margin-left: 20px;
 }
+
 .time-display {
     color:rgb(238,223,2)
 }
+
 .time-select {
     margin-left: 20px;
     /* background: red;
@@ -251,16 +245,14 @@ video {
     z-index: -99;
 }
 
-.FixedHeightContainer
-{
+.FixedHeightContainer {
   float:right;
   height: 250px;
   width:250px; 
   padding:3px; 
   background:#f00;
 }
-.ContentModal
-{
+.ContentModal {
   height:224px;
   overflow:auto;
   background:#fff;
@@ -285,7 +277,6 @@ video {
 
 
 .soundItem {
-   
     padding: 5px;
     margin: 5px;
 }
